@@ -1,14 +1,10 @@
-import React from "react";
+// src/components/Header.js
+import React from 'react';
 
 function Header() {
   return (
     <header>
-      <h1>
-        Plantsy
-        <span className="logo" role="img">
-          🌱
-        </span>
-      </h1>
+      <h1>Plantsy Admin</h1>
     </header>
   );
 }

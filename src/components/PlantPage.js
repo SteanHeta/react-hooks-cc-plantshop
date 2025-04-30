@@ -1,15 +1,18 @@
-import React from "react";
-import NewPlantForm from "./NewPlantForm";
-import PlantList from "./PlantList";
-import Search from "./Search";
+// src/components/PlantPage.js
+import React from 'react';
+import Header from './Header';
+import NewPlantForm from './NewPlantForm';
+import PlantList from './PlantList';
+import Search from './Search';
 
 function PlantPage() {
   return (
-    <main>
+    <div className="plant-page">
+      <Header />
       <NewPlantForm />
       <Search />
       <PlantList />
-    </main>
+    </div>
   );
 }
 
